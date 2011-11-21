@@ -1,0 +1,35 @@
+body {
+	position: relative;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+html, body, #wrap, table { height: 100%; padding: 0; margin: 0;}
+
+.bg {
+	height: 100%;
+	width: 700px;
+	background-color: #ddd;
+	padding: 10px;
+    
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+}
+
+#one {
+    background: url('http://farm7.staticflickr.com/6172/6181334935_1c3cd75b7a_b.jpg') no-repeat top left fixed;
+}
+
+#two {
+    background: url('http://farm7.staticflickr.com/6171/6186254899_30fa22a4c7_b.jpg') no-repeat top left fixed;
+}
+
+#three {
+    background: url('http://farm7.staticflickr.com/6162/6186252923_d44cf31245_m.jpg') no-repeat top left fixed;
+}

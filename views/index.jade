@@ -1,0 +1,9 @@
+- var stageID = 1;
+div#wrap
+  each img in imgs
+    - stageID ++;
+    - var url =  'http://farm' + img.farm  + '.static.flickr.com/' + img.server + '/' + img.id + '_' + img.secret + '.jpg'
+    div(id="stage"+stageID , class="bg", style="background-image: url('" + url + "');")
+        p= img.title + ' = ' + img.datetaken  + ' = ' +  img.width_l  + ' = ' +  img.height_l
+
+
